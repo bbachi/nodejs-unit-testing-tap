@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-unit-testing-tap",
+  "version": "1.0.0",
+  "description": "Example Project on how to do unit testing with Tap Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbachi/nodejs-unit-testing-tap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbachi/nodejs-unit-testing-tap/issues"
+  },
+  "homepage": "https://github.com/bbachi/nodejs-unit-testing-tap#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "tap": "^14.11.0"
+  }
+}
